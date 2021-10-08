@@ -1,10 +1,12 @@
 package com.restFull_services.resFull_demo;
-import javax.validation.constraints.Size;
 
+import io.swagger.annotations.ApiModel;
+
+@ApiModel("description = hellooooooooo")
 public class Employee1 {
     private int id ;
-    @Size(min=2,message="name should atleast 2 character")
     private String name;
+
 
     private int age ;
 
